@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_03_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|solutionrelative:AP_2026\\lab_03_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_03_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|solutionrelative:AP_2026\\lab_03_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "lab_03_1.cpp",
-              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_03_1.cpp",
-              "RelativeDocumentMoniker": "AP_2026\\lab_03_1.cpp",
-              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_03_1.cpp",
-              "RelativeToolTip": "AP_2026\\lab_03_1.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAVAAAAAAAAAA==",
+              "Title": "lab_03_2.cpp",
+              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_03_2.cpp",
+              "RelativeDocumentMoniker": "AP_2026\\lab_03_2.cpp",
+              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_03_2.cpp",
+              "RelativeToolTip": "AP_2026\\lab_03_2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-27T10:07:02.794Z",
+              "WhenOpened": "2026-09-27T14:45:14.31Z",
               "EditorCaption": ""
             }
           ]
