@@ -29,10 +29,11 @@ int main()
     {
         if (a < 0 && c != 0)
             F = a * x * x + b * x + c;       // F = ax^2 + bx + c
-        else if (a > 0 && c == 0)
-            F = -a / (x - b);                // F = -a / (x - b)
         else
-            F = a * (x + c);                 // F = a(x + c).
+            if (a > 0 && c == 0)
+                F = -a / (x - b);           // F = -a / (x - b)
+            else
+                F = a * (x + c);           // F = a(x + c).
 
         cout << "|" << setw(8) << setprecision(2) << x
             << " |" << setw(12) << setprecision(3) << F << " |" << endl;
