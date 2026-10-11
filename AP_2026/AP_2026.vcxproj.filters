@@ -51,5 +51,11 @@
     <ClCompile Include="lab_05_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lab_05_2_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab_05_2_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
