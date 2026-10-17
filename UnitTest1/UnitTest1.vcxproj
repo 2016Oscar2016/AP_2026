@@ -183,7 +183,10 @@
     <ClCompile Include="UnitTest_lab_05_3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="UnitTest_lab_05_4.cpp" />
+    <ClCompile Include="UnitTest_lab_05_4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UnitTest_lab_05_5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
