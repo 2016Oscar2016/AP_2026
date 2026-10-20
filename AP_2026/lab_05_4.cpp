@@ -2,7 +2,7 @@
 // Пастернак Олександр
 // Лабораторна робота № 5.4
 // Обчислення сум та добутків за допомогою рекурсії
-// Варіант 0.23
+// Варіант 23
 
 #include <iostream>
 #include <cmath>
@@ -58,9 +58,16 @@ double S4(const int K, const int N, const int i, double t)
 
 int main()
 {
-    int K, N;
-    cout << "K = "; cin >> K;
+    const int K = 3;   // нижня межа суми за умовою
+    int N;
+    cout << "K = " << K << endl;
     cout << "N = "; cin >> N;
+
+    if (N < K)
+    {
+        cout << "N >= " << K << endl;
+        return 1;
+    }
 
     cout << "(iter)        S0 = " << S0(K, N) << endl;
     cout << "(rec up ++)   S1 = " << S1(K, N, K) << endl;
