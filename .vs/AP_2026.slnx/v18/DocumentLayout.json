@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_05_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|solutionrelative:AP_2026\\lab_05_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_06_1_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|solutionrelative:UnitTest1\\UnitTest_lab_06_1_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_05_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|solutionrelative:AP_2026\\lab_05_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_06_1_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|solutionrelative:AP_2026\\lab_06_1_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_05_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|solutionrelative:UnitTest1\\UnitTest_lab_05_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_06_1_iter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|solutionrelative:UnitTest1\\UnitTest_lab_06_1_iter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 301,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,40 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "lab_05_5.cpp",
-              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_05_5.cpp",
-              "RelativeDocumentMoniker": "AP_2026\\lab_05_5.cpp",
-              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_05_5.cpp",
-              "RelativeToolTip": "AP_2026\\lab_05_5.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UnitTest_lab_06_1_iter.cpp",
+              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_06_1_iter.cpp",
+              "RelativeDocumentMoniker": "UnitTest1\\UnitTest_lab_06_1_iter.cpp",
+              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_06_1_iter.cpp",
+              "RelativeToolTip": "UnitTest1\\UnitTest_lab_06_1_iter.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-20T14:27:13.666Z",
+              "WhenOpened": "2026-10-24T15:43:03.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitTest_lab_05_4.cpp",
-              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_05_4.cpp",
-              "RelativeDocumentMoniker": "UnitTest1\\UnitTest_lab_05_4.cpp",
-              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_05_4.cpp",
-              "RelativeToolTip": "UnitTest1\\UnitTest_lab_05_4.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UnitTest_lab_06_1_rec.cpp",
+              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_06_1_rec.cpp",
+              "RelativeDocumentMoniker": "UnitTest1\\UnitTest_lab_06_1_rec.cpp",
+              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_06_1_rec.cpp",
+              "RelativeToolTip": "UnitTest1\\UnitTest_lab_06_1_rec.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-20T14:10:45.342Z"
+              "WhenOpened": "2026-10-24T15:38:47.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "lab_05_4.cpp",
-              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_05_4.cpp",
-              "RelativeDocumentMoniker": "AP_2026\\lab_05_4.cpp",
-              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_05_4.cpp",
-              "RelativeToolTip": "AP_2026\\lab_05_4.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCkAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "lab_06_1_rec.cpp",
+              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_06_1_rec.cpp",
+              "RelativeDocumentMoniker": "AP_2026\\lab_06_1_rec.cpp",
+              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_06_1_rec.cpp",
+              "RelativeToolTip": "AP_2026\\lab_06_1_rec.cpp",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-20T14:00:08.002Z",
+              "WhenOpened": "2026-10-24T15:37:26.495Z",
               "EditorCaption": ""
             }
           ]
