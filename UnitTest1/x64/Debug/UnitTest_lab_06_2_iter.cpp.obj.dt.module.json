@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\UnitTest_lab_06_2_iter.obj",
+            "outputs": [
+                "x64\\Debug\\UnitTest_lab_06_2_iter.cpp.obj.dt.module.json",
+                "x64\\Debug\\UnitTest_lab_06_2_iter.cpp.obj.dt.d.json",
+                "x64\\Debug\\UnitTest1.pch"
+            ],
+            "requires": []
+        }
+    ]
+}
