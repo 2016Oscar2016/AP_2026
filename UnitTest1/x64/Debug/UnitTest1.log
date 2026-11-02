@@ -1,2 +1,4 @@
-﻿  UnitTest_lab_06_4_rec.cpp
-  UnitTest1.vcxproj -> C:\Users\Olexandr\source\repos\AP_2026\x64\Debug\UnitTest1.dll
+﻿  UnitTest_lab_07_1_rec.cpp
+C:\Users\Olexandr\source\repos\AP_2026\UnitTest1\UnitTest_lab_07_1_rec.cpp(3,10): error C1083: Cannot open include file: '../AP_2026/lab_07_1_rec.cpp': No such file or directory
+  (compiling source file '/UnitTest_lab_07_1_rec.cpp')
+  

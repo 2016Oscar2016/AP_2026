@@ -1,0 +1,157 @@
+// Lab_7_1_rec.cpp
+// Лабораторна робота № 7.1, спосіб 2 (рекурсивний).
+// Пошук заданих елементів та впорядкування рядків матриці.
+// Варіант 23
+
+#include <iostream>
+#include <iomanip>
+#include <time.h>
+
+using namespace std;
+
+// заповнює рядки матриці a випадковими числами з [Low, High]; rowNo - номер поточного рядка
+void CreateRows(int** a, const int rowCount, const int colCount, const int Low, const int High, int rowNo);
+
+// заповнює поточний рядок rowNo; colNo - номер поточного стовпчика
+void CreateRow(int** a, const int rowNo, const int colCount, const int Low, const int High, int colNo);
+
+// виводить рядки матриці a у вигляді таблиці; rowNo - номер поточного рядка
+void PrintRows(int** a, const int rowCount, const int colCount, int rowNo);
+
+// виводить поточний рядок rowNo; colNo - номер поточного стовпчика
+void PrintRow(int** a, const int rowNo, const int colCount, int colNo);
+
+// впорядковує рядки матриці a за ключами (метод обміну); i0 - номер проходу
+void Sort(int** a, const int rowCount, const int colCount, int i0);
+
+// один прохід методу обміну по рядках; i1 - номер поточного рядка
+void SortPass(int** a, const int rowCount, const int colCount, int i0, int i1);
+
+// міняє місцями рядки row1 і row2 матриці a; j - номер поточного стовпчика
+void Change(int** a, const int row1, const int row2, const int colCount, int j);
+
+// обчислює суму S та кількість k елементів, що задовольняють критерій,
+// і замінює їх нулями (S і k - вихідні параметри, перед викликом мають дорівнювати 0);
+// rowNo - номер поточного рядка
+void CalcRows(int** a, const int rowCount, const int colCount, int& S, int& k, int rowNo);
+
+// те саме для поточного рядка rowNo; colNo - номер поточного стовпчика
+void CalcRow(int** a, const int rowNo, const int colCount, int& S, int& k, int colNo);
+
+int main()
+{
+    srand((unsigned)time(NULL));
+
+    int Low = 8;            // нижня межа значень
+    int High = 73;          // верхня межа значень
+
+    int rowCount = 7;       // кількість рядків матриці
+    int colCount = 6;       // кількість стовпчиків матриці
+
+    int** a = new int* [rowCount];      // динамічна матриця
+    for (int i = 0; i < rowCount; i++)
+        a[i] = new int[colCount];
+
+    CreateRows(a, rowCount, colCount, Low, High, 0);
+    PrintRows(a, rowCount, colCount, 0);
+    Sort(a, rowCount, colCount, 0);
+    PrintRows(a, rowCount, colCount, 0);
+    int S = 0;              // сума заданих елементів
+    int k = 0;              // кількість заданих елементів
+    CalcRows(a, rowCount, colCount, S, k, 0);
+    cout << "S = " << S << endl;
+    cout << "k = " << k << endl;
+    PrintRows(a, rowCount, colCount, 0);
+
+    for (int i = 0; i < rowCount; i++)
+        delete[] a[i];
+    delete[] a;
+
+    return 0;
+}
+
+void CreateRows(int** a, const int rowCount, const int colCount, const int Low, const int High, int rowNo)
+{
+    CreateRow(a, rowNo, colCount, Low, High, 0);
+    if (rowNo < rowCount - 1)
+        CreateRows(a, rowCount, colCount, Low, High, rowNo + 1);
+}
+
+void CreateRow(int** a, const int rowNo, const int colCount, const int Low, const int High, int colNo)
+{
+    a[rowNo][colNo] = Low + rand() % (High - Low + 1);
+    if (colNo < colCount - 1)
+        CreateRow(a, rowNo, colCount, Low, High, colNo + 1);
+}
+
+void PrintRows(int** a, const int rowCount, const int colCount, int rowNo)
+{
+    PrintRow(a, rowNo, colCount, 0);
+    if (rowNo < rowCount - 1)
+        PrintRows(a, rowCount, colCount, rowNo + 1);
+    else
+        cout << endl;
+}
+
+void PrintRow(int** a, const int rowNo, const int colCount, int colNo)
+{
+    cout << setw(4) << a[rowNo][colNo];
+    if (colNo < colCount - 1)
+        PrintRow(a, rowNo, colCount, colNo + 1);
+    else
+        cout << endl;
+}
+
+void Sort(int** a, const int rowCount, const int colCount, int i0)
+{
+    if (i0 < rowCount - 1)
+    {
+        SortPass(a, rowCount, colCount, i0, 0);
+        Sort(a, rowCount, colCount, i0 + 1);
+    }
+}
+
+void SortPass(int** a, const int rowCount, const int colCount, int i0, int i1)
+{
+    if (i1 < rowCount - i0 - 1)
+    {
+        if ((a[i1][0] > a[i1 + 1][0])                   // 1-й стовпчик - за зростанням
+            ||
+            (a[i1][0] == a[i1 + 1][0] &&
+                a[i1][1] < a[i1 + 1][1])                   // 2-й стовпчик - за спаданням
+            ||
+            (a[i1][0] == a[i1 + 1][0] &&
+                a[i1][1] == a[i1 + 1][1] &&
+                a[i1][3] < a[i1 + 1][3]))                  // 4-й стовпчик - за спаданням
+            Change(a, i1, i1 + 1, colCount, 0);
+        SortPass(a, rowCount, colCount, i0, i1 + 1);
+    }
+}
+
+void Change(int** a, const int row1, const int row2, const int colCount, int j)
+{
+    int tmp = a[row1][j];               // тимчасова змінна для обміну
+    a[row1][j] = a[row2][j];
+    a[row2][j] = tmp;
+    if (j < colCount - 1)
+        Change(a, row1, row2, colCount, j + 1);
+}
+
+void CalcRows(int** a, const int rowCount, const int colCount, int& S, int& k, int rowNo)
+{
+    CalcRow(a, rowNo, colCount, S, k, 0);
+    if (rowNo < rowCount - 1)
+        CalcRows(a, rowCount, colCount, S, k, rowNo + 1);
+}
+
+void CalcRow(int** a, const int rowNo, const int colCount, int& S, int& k, int colNo)
+{
+    if (a[rowNo][colNo] % 2 == 0 || !(a[rowNo][colNo] % 8 == 0))     // критерій: парні або крім кратних 8
+    {
+        S += a[rowNo][colNo];
+        k++;
+        a[rowNo][colNo] = 0;
+    }
+    if (colNo < colCount - 1)
+        CalcRow(a, rowNo, colCount, S, k, colNo + 1);
+}
