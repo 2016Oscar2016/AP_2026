@@ -216,7 +216,10 @@
     <ClCompile Include="UnitTest_lab_07_1_iter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="UnitTest_lab_07_1_rec.cpp" />
+    <ClCompile Include="UnitTest_lab_07_2_iter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UnitTest_lab_07_2_rec.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
