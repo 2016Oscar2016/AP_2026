@@ -66,6 +66,9 @@
     <ClCompile Include="UnitTest_lab_07_2_rec.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UnitTest_lab_08_1_iter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">

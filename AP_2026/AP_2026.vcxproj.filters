@@ -102,5 +102,8 @@
     <ClCompile Include="lab_07_2_rec.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lab_08_1_iter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

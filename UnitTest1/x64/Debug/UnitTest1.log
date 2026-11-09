@@ -1,3 +1,4 @@
-﻿  UnitTest_lab_07_2_rec.cpp
+﻿  pch.cpp
+  UnitTest_lab_08_1_iter.cpp
      Creating library C:\Users\Olexandr\source\repos\AP_2026\x64\Debug\UnitTest1.lib and object C:\Users\Olexandr\source\repos\AP_2026\x64\Debug\UnitTest1.exp
   UnitTest1.vcxproj -> C:\Users\Olexandr\source\repos\AP_2026\x64\Debug\UnitTest1.dll
