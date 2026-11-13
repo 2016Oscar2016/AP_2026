@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UNITtest_lab_08_1_iter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|solutionrelative:UnitTest1\\UNITtest_lab_08_1_iter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_08_1_string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|solutionrelative:AP_2026\\lab_08_1_string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_06_4_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5768658D-5753-57BE-9F55-89088097DC31}|UnitTest1\\UnitTest1.vcxproj|solutionrelative:UnitTest1\\UnitTest_lab_06_4_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_07_2_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|solutionrelative:AP_2026\\lab_07_2_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_08_1_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|solutionrelative:AP_2026\\lab_08_1_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E3322F8-B586-43CF-AF09-C4FB580BEE31}|AP_2026\\AP_2026.vcxproj|C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_08_1_iter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 301,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,55 +42,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitTest_lab_06_4_rec.cpp",
-              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_06_4_rec.cpp",
-              "RelativeDocumentMoniker": "UnitTest1\\UnitTest_lab_06_4_rec.cpp",
-              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_06_4_rec.cpp",
-              "RelativeToolTip": "UnitTest1\\UnitTest_lab_06_4_rec.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "lab_08_1_string.cpp",
+              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_08_1_string.cpp",
+              "RelativeDocumentMoniker": "AP_2026\\lab_08_1_string.cpp",
+              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_08_1_string.cpp",
+              "RelativeToolTip": "AP_2026\\lab_08_1_string.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-09T18:03:59.927Z",
+              "WhenOpened": "2026-11-13T14:29:14.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lab_08_1_rec.cpp",
+              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_08_1_rec.cpp",
+              "RelativeDocumentMoniker": "AP_2026\\lab_08_1_rec.cpp",
+              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_08_1_rec.cpp",
+              "RelativeToolTip": "AP_2026\\lab_08_1_rec.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-13T14:19:11.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "lab_07_2_rec.cpp",
-              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_07_2_rec.cpp",
-              "RelativeDocumentMoniker": "AP_2026\\lab_07_2_rec.cpp",
-              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_07_2_rec.cpp",
-              "RelativeToolTip": "AP_2026\\lab_07_2_rec.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-09T18:03:57.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest_lab_08_1_iter.cpp",
-              "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_08_1_iter.cpp",
-              "RelativeDocumentMoniker": "UnitTest1\\UnitTest_lab_08_1_iter.cpp",
-              "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\UnitTest1\\UnitTest_lab_08_1_iter.cpp",
-              "RelativeToolTip": "UnitTest1\\UnitTest_lab_08_1_iter.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-08T16:21:36.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "lab_08_1_iter.cpp",
               "DocumentMoniker": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_08_1_iter.cpp",
               "RelativeDocumentMoniker": "AP_2026\\lab_08_1_iter.cpp",
               "ToolTip": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\lab_08_1_iter.cpp",
               "RelativeToolTip": "AP_2026\\lab_08_1_iter.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwDsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-07T17:15:41.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-13T14:12:52.198Z"
             }
           ]
         },
