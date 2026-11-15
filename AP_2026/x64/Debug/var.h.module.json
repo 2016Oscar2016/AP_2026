@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\var.h.obj",
+            "outputs": [
+                "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\x64\\Debug\\vc145.pdb",
+                "x64\\Debug\\",
+                "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\x64\\Debug\\var.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "var.h",
+                    "source-path": "c:\\users\\olexandr\\source\\repos\\ap_2026\\ap_2026\\var.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

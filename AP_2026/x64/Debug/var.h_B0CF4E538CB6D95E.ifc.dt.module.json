@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\var.obj",
+            "outputs": [
+                "x64\\Debug\\var.h_B0CF4E538CB6D95E.ifc.dt.module.json",
+                "x64\\Debug\\var.h_B0CF4E538CB6D95E.ifc.dt.d.json",
+                "x64\\Debug\\var.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\Olexandr\\source\\repos\\AP_2026\\AP_2026\\var.h",
+                    "source-path": "c:\\users\\olexandr\\source\\repos\\ap_2026\\ap_2026\\var.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
