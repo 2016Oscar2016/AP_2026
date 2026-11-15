@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\lab_09_1">
+      <UniqueIdentifier>{7cdeb30a-4b00-47bd-a952-9f99c59023fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lab_03_1.cpp">
@@ -113,6 +116,9 @@
     </ClCompile>
     <ClCompile Include="lab_08_1_string.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileName.cpp">
+      <Filter>Source Files\lab_09_1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
